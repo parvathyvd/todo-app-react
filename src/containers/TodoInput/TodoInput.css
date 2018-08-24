@@ -1,0 +1,29 @@
+.TodoInput{
+    width: 40rem;
+    text-align: center;
+    margin:  3rem auto;
+    transition: all .5s ease-in-out;
+}
+
+.TodoInput input{
+    height: 4rem;
+    width: 20rem;
+    border: 0.03rem solid rgb(221, 194, 71);;
+    box-shadow: .5rem 1rem 1rem rgba(0,0,0,0.15);
+    font-size: 1.5rem;
+    outline: none;
+}
+
+.TodoInput button{
+    background-color: rgb(221, 194, 71);
+    padding: 1.4rem 3rem;
+    color: white;
+    margin-left: 2rem;
+    font-size: inherit;
+    transform: translateY(-3deg);
+    outline: none;
+    box-shadow: .5rem 1rem 1rem rgba(0,0,0,0.15);
+    border:none;
+    text-transform: uppercase;
+}
+
